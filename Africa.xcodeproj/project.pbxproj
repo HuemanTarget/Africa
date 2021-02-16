@@ -32,6 +32,7 @@
 		4E585A8125DC590E002C267C /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E585A8025DC590E002C267C /* CoverImageView.swift */; };
 		4E585A8625DC5C4B002C267C /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E585A8525DC5C4B002C267C /* CoverImageModel.swift */; };
 		4E585A8A25DC5D72002C267C /* CodableBundleExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E585A8925DC5D72002C267C /* CodableBundleExtentsion.swift */; };
+		4E585A8E25DC619C002C267C /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E585A8D25DC619C002C267C /* AnimalListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		4E585A8025DC590E002C267C /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		4E585A8525DC5C4B002C267C /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		4E585A8925DC5D72002C267C /* CodableBundleExtentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtentsion.swift; sourceTree = "<group>"; };
+		4E585A8D25DC619C002C267C /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				4E585A8025DC590E002C267C /* CoverImageView.swift */,
+				4E585A8D25DC619C002C267C /* AnimalListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E585A4325DC3D68002C267C /* ContentView.swift in Sources */,
+				4E585A8E25DC619C002C267C /* AnimalListItemView.swift in Sources */,
 				4E585A7D25DC4773002C267C /* MainView.swift in Sources */,
 				4E585A8A25DC5D72002C267C /* CodableBundleExtentsion.swift in Sources */,
 				4E585A8125DC590E002C267C /* CoverImageView.swift in Sources */,
