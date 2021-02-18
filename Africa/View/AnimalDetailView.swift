@@ -54,7 +54,13 @@ struct AnimalDetailView: View {
         .padding(.horizontal)
         
         // DESCRIPTION
-        HeadingView(headingImage: "info.circle", headingText: "All about \(animal.name)")
+        Group {
+          HeadingView(headingImage: "info.circle", headingText: "All about \(animal.name)")
+          Text(animal.description)
+            .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+            .layoutPriority(1)
+        }
+        .padding(.horizontal)
         
         // MAP
         HeadingView(headingImage: "map", headingText: "National Parks")
