@@ -47,12 +47,20 @@ struct AnimalDetailView: View {
         }
         .padding(.horizontal)
         // FACTS
+        Group {
+          HeadingView(headingImage: "questionmark.circle", headingText: "Did you know?")
+          InsetFactView(animal: animal)
+        }
+        .padding(.horizontal)
         
         // DESCRIPTION
+        HeadingView(headingImage: "info.circle", headingText: "All about \(animal.name)")
         
         // MAP
+        HeadingView(headingImage: "map", headingText: "National Parks")
         
         // LINK
+        HeadingView(headingImage: "books.vertical", headingText: "Learn More")
         
       } //: VSTACK
       .navigationBarTitle("Learn about \(animal.name)", displayMode: .inline)

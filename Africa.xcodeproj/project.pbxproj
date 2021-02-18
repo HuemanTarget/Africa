@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3520FA25DEE1AD00D4F030 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3520F925DEE1AD00D4F030 /* InsetFactView.swift */; };
 		4E585A4125DC3D68002C267C /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E585A4025DC3D68002C267C /* AfricaApp.swift */; };
 		4E585A4325DC3D68002C267C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E585A4225DC3D68002C267C /* ContentView.swift */; };
 		4E585A4525DC3D69002C267C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E585A4425DC3D69002C267C /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E3520F925DEE1AD00D4F030 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		4E585A3D25DC3D68002C267C /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E585A4025DC3D68002C267C /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		4E585A4225DC3D68002C267C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				4E585A9325DC716C002C267C /* AnimalDetailView.swift */,
 				4E585A9625DC75D7002C267C /* HeadingView.swift */,
 				4E585A9925DC8309002C267C /* InsetGalleryView.swift */,
+				4E3520F925DEE1AD00D4F030 /* InsetFactView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				4E585A4325DC3D68002C267C /* ContentView.swift in Sources */,
 				4E585A8E25DC619C002C267C /* AnimalListItemView.swift in Sources */,
 				4E585A7D25DC4773002C267C /* MainView.swift in Sources */,
+				4E3520FA25DEE1AD00D4F030 /* InsetFactView.swift in Sources */,
 				4E585A8A25DC5D72002C267C /* CodableBundleExtentsion.swift in Sources */,
 				4E585A8125DC590E002C267C /* CoverImageView.swift in Sources */,
 				4E585A9425DC716C002C267C /* AnimalDetailView.swift in Sources */,
