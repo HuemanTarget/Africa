@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct VideoListView: View {
-    var body: some View {
-        Text("Video")
-    }
+  // MARK: - PROPERTIES
+  let videos: [Video] = Bundle.main.decode("videos.json")
+  
+  // MARK: - BODY
+  var body: some View {
+    NavigationView {
+      List {
+        ForEach(videos) { item in
+          VideoListItem(video: item)
+        } //: LOOP
+      } //: List
+      .navigationBarTitle("Videos", displayMode: .large)
+    } //: NAVIGATION
+  }
 }
 
+// MARK: - PREVIEW
 struct VideoListView_Previews: PreviewProvider {
-    static var previews: some View {
-        VideoListView()
-    }
+  static var previews: some View {
+    
+    VideoListView()
+  }
 }
