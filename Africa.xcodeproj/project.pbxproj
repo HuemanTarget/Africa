@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E01F93525E437FA00A96E48 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01F93425E437FA00A96E48 /* MotionAnimationView.swift */; };
 		4E3520FA25DEE1AD00D4F030 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3520F925DEE1AD00D4F030 /* InsetFactView.swift */; };
 		4E3520FD25DEE52600D4F030 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3520FC25DEE52600D4F030 /* InsetMapView.swift */; };
 		4E35210025DEECA500D4F030 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3520FF25DEECA500D4F030 /* ExternalWeblinkView.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E01F93425E437FA00A96E48 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		4E3520F925DEE1AD00D4F030 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		4E3520FC25DEE52600D4F030 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		4E3520FF25DEECA500D4F030 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				4E35210525DEFCC500D4F030 /* VideoListItemView.swift */,
 				4E35210B25DF18CD00D4F030 /* VideoPlayerView.swift */,
 				4E35211725DF48D400D4F030 /* MapAnnotationView.swift */,
+				4E01F93425E437FA00A96E48 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				4E585A9A25DC8309002C267C /* InsetGalleryView.swift in Sources */,
 				4E35210625DEFCC500D4F030 /* VideoListItemView.swift in Sources */,
 				4E585A7A25DC4767002C267C /* GalleryView.swift in Sources */,
+				4E01F93525E437FA00A96E48 /* MotionAnimationView.swift in Sources */,
 				4E585A9725DC75D7002C267C /* HeadingView.swift in Sources */,
 				4E35210C25DF18CD00D4F030 /* VideoPlayerView.swift in Sources */,
 			);
